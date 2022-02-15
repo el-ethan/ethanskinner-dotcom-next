@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Ethan Skinner's profile" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Image className={styles.round} src={image} alt="Ethan Skinner profile pic" height={300} width={300} layout="intrinsic" objectFit='cover' objectPosition='center' placeholder='blur'/>
+      <Image className={styles.round} src={image} alt="Ethan Skinner profile pic" height={500} width={500} layout="intrinsic" objectFit='cover' objectPosition='center' placeholder='blur'/>
     </div>
   )
 }
